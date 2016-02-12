@@ -20,5 +20,5 @@ docker run -d ryanratcliff/fakes3
 
 ### To start up with specific port exposed
 ```
-docker run -d p 7070:7070 ryanratcliff/fakes3
+docker run -d -p 7070:7070 ryanratcliff/fakes3
 ```
